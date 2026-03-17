@@ -16,18 +16,14 @@ Immich 使用 [i18n-iso-countries](https://www.npmjs.com/package/i18n-iso-countr
 # docker-compose.yml
 services:
     immich-server:
-        image: ghcr.io/simbafs/immich-tw:latest
+        image: ghcr.io/simbafs/immich-tw:release
 ```
 
 重新部署後，前往「管理」>「任務佇列」>「擷取中繼資料」，點選「全部執行」重新處理所有照片。國名就會正確顯示為「臺灣」。
 
 ## Docker 映像檔
 
-| 標籤       | 說明                     |
-| ---------- | ------------------------ |
-| `latest`   | 最新穩定版               |
-| `release`  | 同步上游 release 標籤    |
-| `v{x.y.z}` | 指定上游版本（不一定有） |
+https://github.com/simbafs/immich-tw/pkgs/container/immich-tw
 
 ## 授權
 
