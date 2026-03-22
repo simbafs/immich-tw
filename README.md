@@ -25,6 +25,8 @@ services:
 
 https://github.com/simbafs/immich-tw/pkgs/container/immich-tw
 
+可以使用 `release` 或是 `v{x.y.z}` 指定版本。
+
 ## 授權
 
 AGPLv3 授權，詳見 [LICENSE](LICENSE) 檔案。
