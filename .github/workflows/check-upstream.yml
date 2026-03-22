@@ -10,6 +10,7 @@ jobs:
         runs-on: ubuntu-latest
         permissions:
             contents: write
+            workflows: write
         outputs:
             new_release: ${{ steps.check.outputs.new_release }}
             latest_version: ${{ steps.check.outputs.latest_version }}
